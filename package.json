@@ -1,0 +1,26 @@
+{
+  "name": "fanta",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.27.0",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "framer-motion": "^4.1.17",
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "swiper": "^6.7.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "prisma": "^2.27.0",
+    "tailwindcss": "^2.2.4"
+  }
+}

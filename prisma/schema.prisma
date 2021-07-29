@@ -1,0 +1,19 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Product {
+  id            Int     @default(autoincrement()) @id
+  flavour String
+  description   String
+  slug  String
+  color String
+  ingredients  String
+  imageURL  String
+
+}
