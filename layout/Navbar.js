@@ -24,7 +24,7 @@ const Navbar = () => {
             </div>
             <div className="w-20 border border-red-500 lg:w-24 flex items-center">
                 {/* <img src="/fanta-logo.png" className="max-w-full"/> */}
-                <h1>HELLO</h1>
+                <h1 className="text-2xl">HELLO</h1>
             </div>
             <div>
                 <DarkModeIcon handleClick={() => setTheme(colorTheme)}/>
