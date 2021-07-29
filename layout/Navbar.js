@@ -23,7 +23,7 @@ const Navbar = () => {
                 </Link>
             </div>
             <div className="w-20 lg:w-24 flex items-center">
-                <Image src="/fanta-logo.png" quality={90} width={430} height={350} layout="intrinsic" />
+                <img src="/fanta-logo.png" className="max-w-full"/>
             </div>
             <div>
                 <DarkModeIcon handleClick={() => setTheme(colorTheme)}/>
