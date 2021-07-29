@@ -3,6 +3,7 @@ import Link from 'next/link';
 import useDarkMode from "../utils/useDarkMode";
 import DarkModeIcon from "../components/DarkModeIcon";
 import BackIcon from "../components/BackIcon";
+import Image from "next/image";
 
 const Navbar = () => {
     
@@ -20,7 +21,7 @@ const Navbar = () => {
                 </a>
             </Link>
             <div className="w-20 lg:w-24 flex items-center">
-                <img src="/fanta-logo.png" className="max-w-full" />
+                <Image src="/fanta-logo.png" quality={90} width={430} height={350} layout="intrinsic" />
             </div>
             <DarkModeIcon handleClick={() => setTheme(colorTheme)}/>
         </div>
