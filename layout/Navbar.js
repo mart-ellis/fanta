@@ -15,15 +15,19 @@ const Navbar = () => {
 
     return (
         <div className="fixed w-full flex justify-between items-center px-5 md:px-10 xl:px-40 py-3 bg-none z-10">
-            <Link href="/">
-                <a>
-                    <BackIcon className={isHome ? "invisible" : "visible"}/>
-                </a>
-            </Link>
+            <div>
+                <Link href="/">
+                    <a>
+                        <BackIcon className={isHome ? "invisible" : "visible"}/>
+                    </a>
+                </Link>
+            </div>
             <div className="w-20 lg:w-24 flex items-center">
                 <Image src="/fanta-logo.png" quality={90} width={430} height={350} layout="intrinsic" />
             </div>
-            <DarkModeIcon handleClick={() => setTheme(colorTheme)}/>
+            <div>
+                <DarkModeIcon handleClick={() => setTheme(colorTheme)}/>
+            </div>
         </div>
     );
 }
