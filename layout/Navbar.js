@@ -22,7 +22,7 @@ const Navbar = () => {
                     </a>
                 </Link>
             </div>
-            <div className="w-20 lg:w-24 flex items-center">
+            <div className="w-20 border border-red-500 lg:w-24 flex items-center">
                 <img src="/fanta-logo.png" className="max-w-full"/>
             </div>
             <div>
